@@ -1,13 +1,17 @@
 body {
-    background-color: #ebe3e3;
+    background-color: #7fbfe6;
     color: #fff;
     font-family: Arial, sans-serif;
     padding: 150px;
 }
 
-
+h1 {
+    text-align: center;
+    align-items: center;
+    
+}
 .calculadora {
-    background-color: #222;
+    background-color: #94cfea;
     border-radius: 10px;
     padding: 50px;
     width: 300px;
@@ -19,7 +23,7 @@ body {
     padding: 10px;
     font-size: 24px;
     border: none;
-    background-color: #444;
+    background-color: #7ba8bb;
     color: #fff;
     text-align: right;
 }
@@ -41,19 +45,19 @@ body {
 }
 
 .numero {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff8f8;
+    color: black;
 }
 
 .operacao {
-    background-color: #ff6600;
-    color: #fff;
+    background-color: #f1ff92;
+    color: black;
 }
 
 .operacao.resultado {
-    background-color: #009933;
+    background-color: #f1ff92;
 }
 
 .operaçao {
-    background-color: #ff0000;
+    background-color: #ef9ea7;
 }
