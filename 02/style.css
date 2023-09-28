@@ -1,0 +1,59 @@
+body {
+    background-color: #ebe3e3;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 150px;
+}
+
+
+.calculadora {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 50px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#visor {
+    width: 280px;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    text-align: right;
+}
+
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.numero, .operacao {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.numero {
+    background-color: #333;
+    color: #fff;
+}
+
+.operacao {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.operacao.resultado {
+    background-color: #009933;
+}
+
+.operaçao {
+    background-color: #ff0000;
+}
